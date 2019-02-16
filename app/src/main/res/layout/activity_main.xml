@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="#9b6025">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Welcome to"
+        android:paddingTop="5dp"
+        android:textSize="25dp"
+        android:gravity="center_horizontal"
+        android:textColor="#000080"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="The Museum Of Natural History"
+        android:textSize="25dp"
+        android:textColor="#000080"
+        android:gravity="center_horizontal"
+        />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="390dp"
+        android:paddingTop="2dp"
+        android:src="@drawable/museum" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Info"
+        android:layout_marginBottom="20dp"
+        android:onClick="openInfo"
+        android:background="#663300"
+
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="20dp"
+        android:text="Features"
+        android:onClick="openFeatures"
+        android:background="#663300"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Buy Tickets"
+        android:layout_marginBottom="50dp"
+        android:onClick="openTickets"
+        android:background="#663300"
+        />
+
+</LinearLayout>
+    <!--a8741c-->

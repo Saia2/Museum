@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="#bf8040"
+    android:orientation="horizontal"
+    tools:context=".FeaturesActivity">
+
+    <TextView
+        android:layout_width="184dp"
+        android:layout_height="1447dp"
+        android:text="Plants"
+        android:textSize="55dp"
+        android:textColor="#000066"
+        android:layout_marginLeft="3dp"
+        android:layout_marginTop="310dp"
+        android:layout_marginBottom="240dp"
+        android:gravity="center_horizontal"
+        android:onClick="openPlant"
+        />
+
+    <TextView
+        android:layout_width="218dp"
+        android:layout_height="453dp"
+        android:text="Animals"
+        android:textSize="55dp"
+        android:layout_marginTop="310dp"
+        android:layout_marginBottom="240dp"
+        android:layout_marginLeft="10dp"
+        android:gravity="center_horizontal"
+        android:textColor="#000066"
+        android:onClick="openAnimal"/>
+
+</LinearLayout>

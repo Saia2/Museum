@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Museum</string>
+    <string name="title_activity_ticket">TicketActivity</string>
+    <string name="title_activity_info">InfoActivity</string>
+    <string name="title_activity_features">FeaturesActivity</string>
+    <string name="title_activity_plant">PlantActivity</string>
+    <string name="title_activity_animal">AnimalActivity</string>
+    <string name="title_activity_category_item">CategoryItemActivity</string>
+</resources>

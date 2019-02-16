@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".TicketActivity">
+
+    <TextView
+        android:layout_width="404dp"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:text="Purchase Your Tickets"
+        android:textSize="30dp" />
+
+    <EditText
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:hint="Name                 "
+        android:paddingBottom="25dp"
+        android:id="@+id/name"
+        />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="5dp"
+        android:paddingRight="10dp"
+        android:text="Children - $5"
+        android:textSize="20dp"/>
+
+    <Button
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:text="+"
+        />
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" 0 "
+        android:textSize="20dp" />
+
+    <Button
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:text="-" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="5dp"
+        android:paddingRight="15dp"
+        android:text="Seniors - $7"
+        android:textSize="20dp"/>
+
+    <Button
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:text="+" />
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" 0 "
+        android:textSize="20dp" />
+
+    <Button
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:text="-" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="5dp"
+        android:paddingRight="15dp"
+        android:text="Adults - $10"
+        android:textSize="20dp"/>
+
+        <Button
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:text="+"
+            />
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" 0 "
+            android:textSize="20dp" />
+
+        <Button
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:text="-"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="75dp"
+        android:layout_marginRight="125dp"
+        android:layout_marginLeft="20dp"
+        android:text="Buy"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="75dp"
+        android:layout_marginRight="25dp"
+        android:text="Buy with Email Receipt"/>
+
+    </LinearLayout>
+
+    </LinearLayout>

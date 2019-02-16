@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".InfoActivity"
+    android:background="#FFFFFF">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="Opens: 9:30am"
+        android:paddingTop="15dp"
+        android:paddingBottom="15dp"
+        android:textSize="20dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:paddingBottom="15dp"
+        android:text="Closes: 6:00pm"
+        android:textSize="20dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:paddingBottom="15dp"
+        android:text="Location: 123 Alphabet Street"
+        android:textSize="20dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:paddingTop="5dp"
+        android:text="About:"
+        android:textSize="25dp" />
+
+    <TextView
+        android:layout_width="422dp"
+        android:layout_height="match_parent"
+        android:paddingTop="10dp"
+        android:text="    The Museum of Natural History displays
+ the Prehistoric features of nature. We are
+ dedicated to maintaining and preserving the
+ world's most extensive collection of natural
+ history specimens.Here you can enjoy time
+ with your family while still learning
+ something new and exciting."
+        android:textSize="20dp" />
+
+</LinearLayout>
